@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.app-name{
+  margin: 10px;
+}
+
+.logo {
+  height: 50px;
+  object-fit: fill;
+}
+
+.toolbar-button {
+  margin: 10px;
+}

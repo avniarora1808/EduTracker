@@ -1,0 +1,43 @@
+.example-card {
+  max-width: 400px;
+}
+
+#top {
+  margin: auto;
+}
+
+.example-header-image1 {
+  background-image: url('/assets/jerry.png');
+  background-size: cover;
+}
+
+.example-header-image2 {
+  background-image: url('/assets/jake.png');
+  background-size: cover;
+}
+
+.example-header-image3 {
+  background-image: url('/assets/avni.png');
+  background-size: cover;
+}
+
+.example-header-image4 {
+  background-image: url('/assets/jacky.png');
+  background-size: cover;
+}
+
+.content {
+  padding: 16px;
+}
+
+.content > mat-card {
+  width: 200px;
+}
+
+.toptext {
+  font-size: 20px;
+  margin: 70px;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+}

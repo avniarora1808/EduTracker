@@ -1,0 +1,71 @@
+.flex-container{
+  min-width: 300px;
+  padding:20px;
+}
+
+.input-container {
+  padding-top: 20vh;
+  padding-bottom: 5vh;
+}
+
+.icon-container {
+  text-align: right;
+}
+
+.flex-item {
+  padding:20px;
+  text-align:center
+}
+
+.submit-button {
+  margin: 30px;
+}
+
+.prediction-button {
+  margin: 10vh;
+}
+
+.flex-item:nth-child(1) {
+  padding:20px;
+  text-align: center;
+}
+
+.flex-item {
+  padding:20px;
+}
+
+.card-item {
+  margin: auto;
+  text-align: left;
+}
+
+.submit-button {
+  margin: 30px;
+}
+
+.icon-display {
+  transform: scale(0.5);
+}
+
+button[mat-icon-button] {
+  $small-size-button: 40px;
+  $small-size-icon: 40px;
+
+  &.icon-button-small {
+    width: $small-size-button;
+    height: $small-size-button;
+    line-height: $small-size-button;
+    .mat-icon {
+      font-size: $small-size-icon;
+      width: $small-size-icon;
+      height: $small-size-icon;
+      line-height: $small-size-icon;
+    }
+    .mat-button-ripple {
+      font-size: inherit;
+      width: inherit;
+      height: inherit;
+      line-height: inherit;
+    }
+  }
+}

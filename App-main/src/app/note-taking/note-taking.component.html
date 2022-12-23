@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <!-- <link rel="stylesheet" href="css/utilities.css"> -->
+    <link rel="stylesheet" href="note-taking.component.css">
+    <title>EduTracker | Resource hub for students</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="logo">EduTracker | Resource hub for students</h1>
+        </div>
+        <img src="assets/pen.png" alt="pen" style="width:100px ; height: auto;">
+    </div>
+
+<div class="box">
+    <h1>Note Taking Essentials</h1>
+
+    <div class="row">
+        <div class="column">
+          <img src="assets/notion.jpg" alt="notion" onclick="myFunction(this);">
+          <h2>NOTION</h2>
+        </div>
+        <div class="column">
+          <img src="assets/onenote.jpg" alt="onenote" onclick="myFunction(this);">
+          <h3>ONE NOTE</h3>
+        </div>
+        <div class="column">
+          <img src="assets/goodnotes.png" alt="goodnotes" onclick="myFunction(this);">
+          <h4>GOODNOTES 5</h4>
+        </div>
+        <!-- <div class="column">
+          <img src="assets/notability.png" alt="notability" onclick="myFunction(this);">
+          <h5>NOTABILITY</h5>
+        </div> --> 
+        <div class="column">
+            <img src="assets/evernote.gif" alt="evernote" onclick="myFunction(this);">
+            <h5>EVERNOTE</h5>
+          </div>
+      </div>
+      
+      <!-- The expanding image container -->
+      <div class="container">
+        <!-- Close the image -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+      
+        <!-- Expanded image -->
+        <img id="expandedImg" style="width:100%">
+      
+        <!-- Image text -->
+        <div id="imgtext"></div>
+      </div>
+</div>
